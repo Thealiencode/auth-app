@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: lato;
+}
+
+.card {
+  box-shadow: 0 31px 49px rgb(105 105 105 / 9%);
+  padding: 25px 80px;
+  background: #fff;
+  position: relative;
+  width: 400px;
+  border-radius: 16px;
+  margin: 50px 0 50px 0;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.form-group input {
+border-radius: 5px;
+padding: 18px 10px;
+border: .5px solid black;
+margin-top: 1rem;
+}
+
+.form-group input.unvalidated {
+  border-radius: 5px;
+  padding: 18px 10px;
+  border: 1px solid red;
+  margin-top: 1rem;
+  color: red;
+  }
+
+.form-group input::placeholder {
+  color: grey;
+}
+
+
+.form-group label {
+  color: black;
+  font-weight: 300;
+  background-color: #fff;
+}
+
+.submit-btn-wrapper {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn {
+  background: grey;
+  border-color: transparent;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+.submit-btn:hover {
+  background: rgb(26, 94, 183);
+  cursor: pointer;
+}
+.alert {
+  width: 100;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.alert.danger {
+  background: red;
+
+}
+.alert.success {
+  background: green;
+
+}
+
+.validation-error {
+  color: red;
+}
+
+.text-center {
+  text-align: center;
+}
