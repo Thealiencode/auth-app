@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Navigate, useNavigate  } from 'react-router-dom';
 
@@ -13,7 +12,6 @@ const Home = () => {
     }
     
     const { user: currentUser } = useSelector((state) => state.auth);
-    console.log(currentUser)
 
   return (
     <div>Hello {currentUser.firstname} {currentUser.lastname} !</div>
