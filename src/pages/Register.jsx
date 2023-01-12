@@ -37,7 +37,7 @@ const Register = () => {
           errorArr['lastname'] = "The lastname Field is required"
        }
        if(password == ''){
-         errorArr['password'] = "The Password field"
+         errorArr['password'] = "The Password field is required"
        } else if(password != confirmPassword){
           errorArr['password'] = "The Password and confirm Password should match"
        }
