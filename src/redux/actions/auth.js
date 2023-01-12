@@ -8,7 +8,7 @@ import {
   } from "./types"; 
 
 
-  import AuthService from "../services/auth.service";
+  import AuthService from "../../services/auth.service";
 
   export const register = (firstname, lastname, email, password, confirmPassword) => (dispatch) => {
     return AuthService.register(firstname, lastname, email, password, confirmPassword).then(
